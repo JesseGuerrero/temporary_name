@@ -11,4 +11,6 @@ Send e-mail in Python: https://www.geeksforgeeks.org/send-mail-gmail-account-usi
 <li>Bitcoin history tracker with a chart Api</li>
 </ul>
 
-Contributors:
+<h3>Contributors</h3>
+-Jesus A. Guerrero <br>
+-Sabari Manikandan 
