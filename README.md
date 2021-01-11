@@ -1,2 +1,12 @@
 # Group project
-Currently returns a JSON request from https://bitcoincharts.com/about/markets-api/
+Bitcoin API: https://bitcoincharts.com/about/markets-api/ <br>
+Flask: https://flask.palletsprojects.com/en/1.1.x/ <br>
+Send e-mail in Python: https://www.geeksforgeeks.org/send-mail-gmail-account-using-python/<br>
+<br>
+<h3>Project ideas</h3>
+<ul>
+<li>Simple email notifier in Flask</li>
+<li>Mock blog application in Flask</li>
+<li>2D life sim in PyGame, we could make the game a bitcoin, stock and life simulator</li>
+<li>Bitcoin history tracker with a chart Api</li>
+</ul>
