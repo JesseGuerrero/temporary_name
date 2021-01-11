@@ -10,3 +10,5 @@ Send e-mail in Python: https://www.geeksforgeeks.org/send-mail-gmail-account-usi
 <li>2D life sim in PyGame, we could make the game a bitcoin, stock and life simulator</li>
 <li>Bitcoin history tracker with a chart Api</li>
 </ul>
+
+Contributors:
