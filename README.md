@@ -1,4 +1,6 @@
-# Group project
+# About Group project
+If you start on the projects below I can put them together. Above in the repository there are modules where you can run each project/app. You can run the flask project "app.py".
+
 Bitcoin API: https://bitcoincharts.com/about/markets-api/ <br>
 Flask: https://flask.palletsprojects.com/en/1.1.x/ <br>
 Send e-mail in Python: https://www.geeksforgeeks.org/send-mail-gmail-account-using-python/<br>
