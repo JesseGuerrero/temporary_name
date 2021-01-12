@@ -2,6 +2,7 @@
 Bitcoin API: https://bitcoincharts.com/about/markets-api/ <br>
 Flask: https://flask.palletsprojects.com/en/1.1.x/ <br>
 Send e-mail in Python: https://www.geeksforgeeks.org/send-mail-gmail-account-using-python/<br>
+Chatbot library: https://www.coursera.org/projects/chatbot-rasa-python
 <br>
 <h3>Project ideas</h3>
 <ul>
@@ -9,6 +10,7 @@ Send e-mail in Python: https://www.geeksforgeeks.org/send-mail-gmail-account-usi
 <li>Mock blog application in Flask</li>
 <li>2D life sim in PyGame, we could make the game a bitcoin, stock and life simulator</li>
 <li>Bitcoin history tracker with a chart Api</li>
+ <li>Customer service bot using Rasa</li>
 </ul>
 
 <h3>Contributors</h3>
