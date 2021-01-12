@@ -2,7 +2,8 @@
 Bitcoin API: https://bitcoincharts.com/about/markets-api/ <br>
 Flask: https://flask.palletsprojects.com/en/1.1.x/ <br>
 Send e-mail in Python: https://www.geeksforgeeks.org/send-mail-gmail-account-using-python/<br>
-Chatbot library: https://www.coursera.org/projects/chatbot-rasa-python
+Chatbot library: https://www.coursera.org/projects/chatbot-rasa-python<br>
+PyGame: https://www.pygame.org/news
 <br>
 <h3>Project ideas</h3>
 <ul>
