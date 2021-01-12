@@ -18,5 +18,5 @@ PyGame: https://www.pygame.org/news
 
 <h3>Contributors</h3>
 -Jesus A. Guerrero <br>
--Sabari Manikandan 
+-Sabari Manikandan <br>
 -Vibin Mathew
