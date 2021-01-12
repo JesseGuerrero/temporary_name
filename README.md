@@ -10,7 +10,7 @@ I can do this for you every time there is an update. It will be good practice fo
   <li>Next, Enter "sudo systemctl restart group_project" to restart the website with updates from github.</li>
   <li>You should see the updates at the ip</li>
 </ol>
-To see the server console feed back you have to stop the service and run it with "python3 app.py" in the flask_apps directory.<br><br>
+To see the server console feed back you have to stop the service and run the flask app with "python3 app.py" in the flask_apps directory.<br><br>
 
 Service commands:<br>
 sudo systemctl start group_project<br>
