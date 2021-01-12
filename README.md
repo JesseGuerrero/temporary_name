@@ -28,7 +28,7 @@ I can do this for you every time there is an update. It will be good practice fo
 <li>Simple email notifier in Flask</li>
 <li>Mock blog application in Flask</li>
 <li>2D life sim in PyGame, we could make the game a bitcoin, stock and life simulator</li>
-<li>Bitcoin history tracker with a chart Api</li>
+<li>Bitcoin history tracker with a chart Api(2nd derivative)</li>
  <li>Customer service bot using Rasa</li>
 </ul>
 
