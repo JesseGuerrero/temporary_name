@@ -2,18 +2,22 @@
 If you start on the projects below I can make them interact with each other. Above in the repository there are modules where you can run each project/app. 
 
 <h3>Update the website to the latest code</h3>
-I can do this for you every time there is an update. It will be good practice for you to learn to do this as well. I use a Linux library called "Screen" to run apps in the background on Ubuntu. To update the private server go into your SSH: 
+I can do this for you every time there is an update. It will be good practice for you to learn to do this as well. With Ubuntu Service there are less steps to starting, checking and stopping the web server but it comes with a caveat. You have to check the website feedback separately. To update the private server go into your SSH: 
 <ol>
   <li>"ssh [username]@144.91.84.171"</li>
   <li>go into directory "/home/group_project/temporary_name</li>
   <li>Type "sudo git pull origin master", you should see updates, if there are errors let me know and ill fix it</li> 
-  <li>Next, Enter "screen -ls" to list current screens</li>
-  <li>Find the ID of the screen labeled "flask" or "group_project"</li>
-  <li>Enter "screen -R [Screen ID]" to resume a seperate window/screen by ID</li>
-  <li>Shut down the website with CTRL+C and run "python3 app.py" in the flask app folder</li>
-  <li>Use "CTRL+A" keep holding CTRL, let go of "A" and push "D". It will exit the screen and the website will still be running</li>
+  <li>Next, Enter "sudo systemctl restart group_project" to restart the website with updates from github.</li>
   <li>You should see the updates at the ip</li>
 </ol>
+To see the server console feed back you have to stop the service and run it with "python3 app.py" in the flask_apps directory.<br><br>
+
+Service commands:<br>
+sudo systemctl start group_project<br>
+sudo systemctl restart group_project<br>
+sudo systemctl stop group_project<br>
+sudo systemctl status group_project
+
 <h3>Libraries/APIs</h3>
 <ul>
 <li>Bitcoin API: https://bitcoincharts.com/about/markets-api/ </li>
