@@ -1,5 +1,5 @@
 # About Group project
-If you start on the projects below I can make them interact with each other. Above in the repository there are modules where you can run each project/app. You can run the flask project "app.py".
+If you start on the projects below I can make them interact with each other. Above in the repository there are modules where you can run each project/app.
 
 Bitcoin API: https://bitcoincharts.com/about/markets-api/ <br>
 Flask: https://flask.palletsprojects.com/en/1.1.x/ <br>
