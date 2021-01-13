@@ -2,7 +2,7 @@
 If you start on the projects below I can make them interact with each other. Above in the repository there are modules where you can run each project/app. 
 
 <h3>Obtain code for an API using Postman</h3>
-There is no need to write your own code in every language when working with APIs. Postman does it for you. Here is an example of what information looks like from an API:<img src = "https://i.gyazo.com/4edc446fcac5db03035e80d487deb154.png"><br><br>
+There is no need to write your own code in every language when working with APIs. Postman does it for you. Here is an example of what information looks like from an API(This is a history of Bitcoin transactions):<img src = "https://i.gyazo.com/4edc446fcac5db03035e80d487deb154.png"><br><br>
 
 Postman automatically makes code : <img src="https://i.gyazo.com/2e139510a8cc5ec826d49a0f58656fe8.png">
 
