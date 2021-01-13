@@ -1,6 +1,13 @@
 # About Group project
 If you start on the projects below I can make them interact with each other. Above in the repository there are modules where you can run each project/app. 
 
+<h3>Obtain code for an API using Postman</h3>
+There is no need to write your own code in every language when working with APIs. Postman does it for you. Here is an example of what information looks like from an API:<img src = "https://i.gyazo.com/4edc446fcac5db03035e80d487deb154.png"><br><br>
+
+Postman automatically makes code : <img src="https://i.gyazo.com/2e139510a8cc5ec826d49a0f58656fe8.png">
+
+Here is an example Youtube tutorial, there are better ones out there though: https://youtu.be/t5n07Ybz7yI
+
 <h3>Update the website to the latest code</h3>
 I can do this for you every time there is an update. It will be good practice for you to learn to do this as well. With Ubuntu Service there are less steps to starting, checking and stopping the web server but it comes with a caveat. You have to check the website feedback separately. To update the private server go into your SSH: 
 <ol>
