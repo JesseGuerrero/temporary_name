@@ -1,4 +1,4 @@
-# About Group project
+# About group project
 If you start on the projects below I can make them interact with each other. Above in the repository there are modules where you can run each project/app. 
 
 <h3>Obtain code for an API using Postman</h3>
