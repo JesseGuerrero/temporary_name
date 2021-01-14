@@ -19,7 +19,7 @@ I can do this for you every time there is an update. It will be good practice fo
 </ol>
 To see the server console feed back you have to stop the service and run the flask app with "python3 app.py" in the flask_apps directory.<br><br>
 
-Service commands:<br>
+<i>Service commands</i><br>
 sudo systemctl start group_project<br>
 sudo systemctl restart group_project<br>
 sudo systemctl stop group_project(Here is where you stop it then run app.py on its own to see debug info)<br>
@@ -28,6 +28,7 @@ sudo systemctl status group_project
 <h3>Libraries/APIs</h3>
 <ul>
 <li>Bitcoin API: https://bitcoincharts.com/about/markets-api/ </li>
+<li>Other APIs: https://public-apis.io/</li>  
 <li>Flask: https://flask.palletsprojects.com/en/1.1.x/ </li>
 <li>Send e-mail in Python: https://www.geeksforgeeks.org/send-mail-gmail-account-using-python/</li>
 <li>Chatbot library: https://www.coursera.org/projects/chatbot-rasa-python</li>
@@ -40,7 +41,8 @@ sudo systemctl status group_project
 <li>Mock blog application in Flask</li>
 <li>2D life sim in PyGame, we could make the game a bitcoin, stock and life simulator</li>
 <li>Bitcoin history tracker with a chart Api(2nd derivative)</li>
- <li>Customer service bot using Rasa</li>
+<li>Customer service bot using Rasa</li>
+<li>Local video manager for downloaded videos</li>
 </ul>
 
 <h3>Contributors</h3>
