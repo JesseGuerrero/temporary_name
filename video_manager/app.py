@@ -1,31 +1,17 @@
-import cv2
+import pyglet
 
-'''
-Here is a potential project, a video manager for downloaded videos to act as a replacement for Netflix when you 
-download videos.
-'''
+vid_path='Oklahoma.mp4'
+window=pyglet.window.Window(500, 450, "Video Player")
+player = pyglet.media.Player()
+source = pyglet.media.StreamingSource()
+MediaLoad = pyglet.media.load(vid_path)
 
+player.queue(MediaLoad)
+player.play()
 
-def isXButtonPressed():
-    return cv2.getWindowProperty('VideoManager', 0) == -1
+@window.event
+def on_draw():
+    if player.source and player.source.video_format:
+        player.get_texture().blit(0,0)
 
-video = cv2.VideoCapture('Oklahoma.mp4')
-
-# Read until video is completed
-while (video.isOpened()):
-    # Capture frame-by-frame
-    frameSuccessful, frame = video.read()
-    if frameSuccessful == True:
-        # Display the resulting frame
-        cv2.imshow('VideoManager', frame)
-        # Press Q on keyboard to  exit
-        if cv2.waitKey(25) & 0xFF == ord('q'):
-            break
-        if isXButtonPressed() is True:
-            break
-    else: #no more frames!
-        break
-video.release()
-
-# Closes all the frames
-cv2.destroyAllWindows()
+pyglet.app.run()
