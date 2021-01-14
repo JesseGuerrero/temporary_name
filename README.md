@@ -28,6 +28,7 @@ sudo systemctl status group_project
 <h3>Libraries/APIs</h3>
 <ul>
 <li>Bitcoin API: https://bitcoincharts.com/about/markets-api/ </li>
+  <li>Other APIs: https://public-apis.io/</li>  
 <li>Flask: https://flask.palletsprojects.com/en/1.1.x/ </li>
 <li>Send e-mail in Python: https://www.geeksforgeeks.org/send-mail-gmail-account-using-python/</li>
 <li>Chatbot library: https://www.coursera.org/projects/chatbot-rasa-python</li>
