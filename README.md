@@ -40,7 +40,8 @@ sudo systemctl status group_project
 <li>Mock blog application in Flask</li>
 <li>2D life sim in PyGame, we could make the game a bitcoin, stock and life simulator</li>
 <li>Bitcoin history tracker with a chart Api(2nd derivative)</li>
- <li>Customer service bot using Rasa</li>
+<li>Customer service bot using Rasa</li>
+<li>Local video manager for downloaded videos</li>
 </ul>
 
 <h3>Contributors</h3>
