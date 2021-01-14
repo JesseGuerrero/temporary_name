@@ -19,7 +19,7 @@ I can do this for you every time there is an update. It will be good practice fo
 </ol>
 To see the server console feed back you have to stop the service and run the flask app with "python3 app.py" in the flask_apps directory.<br><br>
 
-Service commands:<br>
+<i>Service commands</i><br>
 sudo systemctl start group_project<br>
 sudo systemctl restart group_project<br>
 sudo systemctl stop group_project(Here is where you stop it then run app.py on its own to see debug info)<br>
