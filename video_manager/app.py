@@ -1,8 +1,9 @@
+from tkinter import *
 import pyglet
 
 width = 500
 height = 500
-
+Window = Tk()
 window = pyglet.window.Window(width, height, "Video Player")
 
 Path = "Oklahoma.mp4"
