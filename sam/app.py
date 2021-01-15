@@ -19,7 +19,7 @@ def get_audio(ask = False): #ask is a optional argument
 
 def respond(audio_data):
     if 'what is your name' in audio_data:
-        print ('my name is walle')
+        print ('my name is Sam .')
     if 'how are you' in audio_data:
         print("I'm fine")
     if 'search' in audio_data:
