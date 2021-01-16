@@ -4,19 +4,25 @@ import playsound
 import os
 import random
 from gtts import gTTS
+
+#TODO: Shorten parsing time of listen function
+
+
 '''
 Handles all speech recognition
 '''
 speechRecognizer = sr.Recognizer()
 
 '''
-adjust_for_ambient_noise allows for microphones with automatic noise reduction to function.
+adjust_for_ambient_noise stops listening to mic for 2 seconds
 '''
 def get_audio(ask = False):
     with sr.Microphone() as source: # source of our audio
         if(ask):
             sam_speak(ask)
-        # speechRecognizer.adjust_for_ambient_noise(source, duration=1)
+        speechRecognizer.adjust_for_ambient_noise(source, duration=2)
+
+        print("Listening...")
         audio = speechRecognizer.listen(source) # it is a listener for the recogniser
         audio_load = ' '
         try:
@@ -25,7 +31,6 @@ def get_audio(ask = False):
             sam_speak("Sorry, I did not get that")
         except sr.RequestError:
             sam_speak("Server Down, Try again later")
-        # print(audio_load)
     return audio_load
 
 
@@ -57,8 +62,8 @@ def respond(audio_data):
     if 'exit' in audio_data:
         exit()
 
-
-
 sam_speak("How can i help you?")
-audio_data = get_audio()
-respond(audio_data)
+audio_data = ""
+while(True):
+    audio_data = get_audio()
+    respond(audio_data)
