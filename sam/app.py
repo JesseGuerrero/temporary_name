@@ -1,5 +1,5 @@
-from .SpeechRecognition import *
+from sam import AudioRecognition
 
 print("How may i help you?")
-audio_data = get_audio()
-respond(audio_data)
+audio_data = AudioRecognition.get_audio()
+AudioRecognition.respond(audio_data)

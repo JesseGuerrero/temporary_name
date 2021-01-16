@@ -1,4 +1,5 @@
 import speech_recognition as sr
+import pyaudio as pa
 import webbrowser
 '''
 Handles all speech recognition
@@ -8,7 +9,7 @@ speechRecognizer = sr.Recognizer()
 '''
 adjust_for_ambient_noise allows for microphones with automatic noise reduction to function.
 '''
-def get_audio():
+def get_audio() -> str:
     with sr.Microphone() as source: # source of our audio
         speechRecognizer.adjust_for_ambient_noise(source, duration=1)
         audio = speechRecognizer.listen(source) # it is a listener for the recogniser
