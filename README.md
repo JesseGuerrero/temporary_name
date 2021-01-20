@@ -39,7 +39,7 @@ sudo systemctl status group_project
 <ul>
 <li>Simple email notifier in Flask</li>
 <li>Mock blog application in Flask</li>
-<li>2D life sim in PyGame, we could make the game a bitcoin, stock and life simulator</li>
+<li>Data analysis project for Datasets/APIs</li>
 <li>Bitcoin history tracker with a chart Api(2nd derivative)</li>
 <li>Customer service bot using Rasa</li>
 <li>Local video manager for downloaded videos</li>
