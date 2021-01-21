@@ -1,11 +1,17 @@
-import requests
 import tkinter as tk
+from project_management.GithubManager import getGroupProjectRepo, countCommitsByDate
 
-url = "http://api.bitcoincharts.com/v1/markets.json"
+repository = getGroupProjectRepo()
+group = repository.get_collaborators()
 
-response = requests.request("GET", url)
+for member in group:
+    if member.name != None:
+        commitCount = countCommitsByDate(repository, member)
+        print(member.name + " commit count: " + str(commitCount))
 
+# Tkinter blank window
 window = tk.Tk()
-greeting = tk.Message(text=response.text)
+greeting = tk.Message(text="Greetings! You can make a GUI here.")
+window.minsize(300, 300)
 greeting.pack()
 window.mainloop()
